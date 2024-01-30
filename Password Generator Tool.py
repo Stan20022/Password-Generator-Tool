@@ -12,8 +12,6 @@ def generate_password(length=12, uppercase=True, lowercase=True, numbers=True, s
     - numbers: Include numbers (default is True).
     - symbols: Include symbols (default is True).
 
-    Returns:
-    A randomly generated password.
     """
     characters = ""
 
